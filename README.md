@@ -35,5 +35,5 @@ for (var i = 0; i < 1000; i++) {
   digest.Add(i);
 }
 digest.Cdf(244); // To get the percentile of any value.
-digest.Quantile(99); // To get the value of a specific percentile.
+digest.Quantile(0.99); // To get the value of a specific percentile.
 ```
